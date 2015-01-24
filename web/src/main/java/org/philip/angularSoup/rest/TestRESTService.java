@@ -49,6 +49,11 @@ public class TestRESTService
     	o.put("bar", "asdfasdfasdfasdfasdf");
     	array.put(o);
 
+    	o = new JSONObject();
+    	o.put("foo", 444);
+    	o.put("bar", "Hippopotamous!");
+    	array.put(o);
+
     	return array.toString();
     }
 
